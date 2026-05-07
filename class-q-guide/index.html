@@ -1,0 +1,598 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class Q Barn Conversion Guide | Prior Approval for Agricultural Buildings | Tamzin Hennessy</title>
+<meta name="description" content="The complete Class Q permitted development guide for farmers and landowners. Written by someone who has navigated two successful Class Q applications on a working farm. £97.">
+<meta name="keywords" content="Class Q barn conversion, Class Q prior approval, agricultural barn to house, Class Q permitted development, agricultural conversion dwelling, barn conversion planning UK, Class Q guide, agricultural building conversion">
+<meta property="og:title" content="Class Q Barn Conversion Guide — Tamzin Hennessy">
+<meta property="og:description" content="The complete guide to converting an agricultural building under Class Q permitted development. Written by a farmer who has done it twice.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://tamzinhennessy.github.io/class-q-guide">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0f1f3d;
+    --navy-mid: #1a3260;
+    --white: #ffffff;
+    --off-white: #f7f6f3;
+    --light-rule: #ddd9d2;
+    --gold: #c9a84c;
+    --text: #1a1a1a;
+    --muted: #666;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    background: var(--white);
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  /* NAV */
+  nav {
+    background: var(--navy);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 0.15em;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  /* HERO */
+  .hero {
+    background: var(--navy);
+    padding: 80px 40px 100px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(201,168,76,0.4);
+    padding: 6px 18px;
+    margin-bottom: 40px;
+  }
+
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    line-height: 1.15;
+    color: var(--white);
+    max-width: 820px;
+    margin: 0 auto 24px;
+    letter-spacing: 0.01em;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: rgba(255,255,255,0.75);
+  }
+
+  .hero-sub {
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.6);
+    max-width: 540px;
+    margin: 0 auto 50px;
+    letter-spacing: 0.03em;
+  }
+
+  .hero-cta {
+    display: inline-block;
+    background: var(--white);
+    color: var(--navy);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 48px;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .hero-cta:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+
+  .hero-price {
+    display: block;
+    margin-top: 16px;
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.1em;
+  }
+
+  /* RULE */
+  .rule {
+    width: 40px;
+    height: 1px;
+    background: var(--gold);
+    margin: 0 auto 32px;
+  }
+
+  /* CREDIBILITY STRIP */
+  .strip {
+    background: var(--off-white);
+    border-top: 1px solid var(--light-rule);
+    border-bottom: 1px solid var(--light-rule);
+    padding: 28px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  .strip-item {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .strip-item::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: var(--gold);
+    display: block;
+    flex-shrink: 0;
+  }
+
+  /* SECTIONS */
+  .section {
+    padding: 80px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
+
+  .section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    line-height: 1.2;
+    color: var(--navy);
+    max-width: 680px;
+    margin-bottom: 28px;
+  }
+
+  .section p {
+    font-size: 0.95rem;
+    color: #444;
+    max-width: 620px;
+    margin-bottom: 20px;
+  }
+
+  /* PROBLEMS */
+  .problems {
+    background: var(--navy);
+    padding: 80px 40px;
+  }
+
+  .problems-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .problems .section-label { color: rgba(201,168,76,0.8); }
+
+  .problems h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+    color: var(--white);
+    margin-bottom: 50px;
+    max-width: 600px;
+  }
+
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1px;
+    background: rgba(255,255,255,0.1);
+  }
+
+  .problem-item {
+    background: var(--navy);
+    padding: 32px;
+  }
+
+  .problem-item p {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.7;
+  }
+
+  .problem-item p strong {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+
+  /* CONTENTS */
+  .contents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+    margin-top: 48px;
+  }
+
+  .contents-item {
+    border-top: 1px solid var(--light-rule);
+    padding-top: 24px;
+  }
+
+  .contents-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: rgba(15,31,61,0.12);
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+
+  .contents-title {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--navy);
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  .contents-desc {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  /* AUTHOR */
+  .author {
+    background: var(--off-white);
+    border-top: 1px solid var(--light-rule);
+    border-bottom: 1px solid var(--light-rule);
+    padding: 80px 40px;
+  }
+
+  .author-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .author-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+
+  .author-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--navy);
+    line-height: 1.2;
+  }
+
+  .author-body p {
+    font-size: 0.93rem;
+    color: #444;
+    margin-bottom: 18px;
+    line-height: 1.8;
+  }
+
+  /* CTA SECTION */
+  .cta-section {
+    background: var(--navy);
+    padding: 100px 40px;
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--white);
+    max-width: 700px;
+    margin: 0 auto 16px;
+    line-height: 1.2;
+  }
+
+  .cta-section p {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 48px;
+    letter-spacing: 0.04em;
+  }
+
+  .cta-price {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: var(--white);
+    margin-bottom: 8px;
+    line-height: 1;
+  }
+
+  .cta-price-note {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    display: block;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: var(--white);
+    color: var(--navy);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 56px;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .cta-btn:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+
+  .cta-guarantee {
+    margin-top: 28px;
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0.08em;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a1628;
+    padding: 40px;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  footer a {
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+  }
+
+  /* DIVIDER */
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: var(--light-rule);
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 700px) {
+    nav { padding: 16px 20px; }
+    .hero { padding: 60px 24px 80px; }
+    .strip { gap: 24px; padding: 24px 20px; }
+    .section { padding: 60px 24px; }
+    .problems { padding: 60px 24px; }
+    .author { padding: 60px 24px; }
+    .author-inner { grid-template-columns: 1fr; gap: 32px; }
+    .cta-section { padding: 80px 24px; }
+    footer { padding: 32px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <span class="nav-name">Tamzin Hennessy</span>
+  <a href="https://payhip.com/b/Q0WYj" class="nav-link">Get the Guide →</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-tag">Class Q Permitted Development</div>
+  <h1>Convert Your Agricultural Building<br><em>Without Full Planning Permission</em></h1>
+  <p class="hero-sub">The complete guide to Class Q prior approval — written by a farmer who has navigated two successful applications on a working farm.</p>
+  <a href="https://payhip.com/b/Q0WYj" class="hero-cta">Get the Guide</a>
+  <span class="hero-price">£97 — Instant Download</span>
+</header>
+
+<!-- CREDIBILITY STRIP -->
+<div class="strip">
+  <span class="strip-item">Written from real experience</span>
+  <span class="strip-item">Two successful Class Q applications</span>
+  <span class="strip-item">Working farm in England</span>
+  <span class="strip-item">Updated for May 2024 rule changes</span>
+</div>
+
+<!-- INTRO -->
+<section class="section">
+  <p class="section-label">The problem with Class Q</p>
+  <h2>The rules changed in May 2024. Most guides haven't caught up.</h2>
+  <p>Class Q permitted development rights allow you to convert an existing agricultural building into a residential dwelling without going through full planning permission. Up to ten dwellings per agricultural unit. Up to 1,000m² cumulative. No new build. No change of use application. Just prior approval.</p>
+  <p>But the rules are specific. The eligibility criteria are strict. And the things that kill applications — highways, bats, agricultural ties, structural assessments — are rarely explained clearly anywhere.</p>
+  <p>This guide covers every part of the process, in plain English, from someone who has been refused, challenged highways officers, gone to committee, and come out the other side with two approved applications on a working farm.</p>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROBLEMS -->
+<section class="problems">
+  <div class="problems-inner">
+    <p class="section-label">Who this guide is for</p>
+    <h2>You have a barn. You want to know if Class Q applies to you.</h2>
+    <div class="problem-grid">
+      <div class="problem-item">
+        <p><strong>Farmers & landowners</strong>You have agricultural buildings on your land and want to understand whether Class Q gives you a route to residential conversion without a full planning application.</p>
+      </div>
+      <div class="problem-item">
+        <p><strong>First-time applicants</strong>You have never submitted a prior approval application before and do not want to pay a planning consultant £5,000 to tell you things you could have known in advance.</p>
+      </div>
+      <div class="problem-item">
+        <p><strong>Refused or stuck</strong>Your application has been refused or your council is pushing back on highways, bats or structural concerns. You want to know what your options are.</p>
+      </div>
+      <div class="problem-item">
+        <p><strong>Thinking ahead</strong>You are not ready to apply yet but want to understand the rules before you spend money on architects, structural engineers or planning consultants.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENTS -->
+<section class="section">
+  <p class="section-label">What the guide covers</p>
+  <h2>Nine sections. Every part of the process.</h2>
+  <div class="contents-grid">
+    <div class="contents-item">
+      <div class="contents-num">01</div>
+      <div class="contents-title">Eligibility</div>
+      <p class="contents-desc">What Class Q actually allows, what it does not, and how to assess whether your building qualifies before spending anything.</p>
+    </div>
+    <div class="contents-item">
+      <div class="contents-num">02</div>
+      <div class="contents-title">The 2024 Rule Changes</div>
+      <p class="contents-desc">What changed in May 2024, what it means in practice, and how the new 150m² cap per dwelling affects your options.</p>
+    </div>
+    <div class="contents-item">
+      <div class="contents-num">03</div>
+      <div class="contents-title">The Application</div>
+      <p class="contents-desc">What a prior approval application contains, what documents you need, and the 56-day rule — and what happens if your council goes silent.</p>
+    </div>
+    <div class="contents-item">
+      <div class="contents-num">04</div>
+      <div class="contents-title">Conversion vs Rebuild</div>
+      <p class="contents-desc">The most important distinction in Class Q. What conversion means legally, and why getting this wrong ends applications.</p>
+    </div>
+    <div class="contents-item">
+      <div class="contents-num">05</div>
+      <div class="contents-title">Bat Surveys</div>
+      <p class="contents-desc">Why bat surveys delay more Class Q applications than any other single issue — and how to manage the timing correctly.</p>
+    </div>
+    <div class="contents-item">
+      <div class="contents-num">06</div>
+      <div class="contents-title">Highways</div>
+      <p class="contents-desc">The section most guides skip. How to handle a hostile highways officer, visibility splay disputes, and the 2.4m fallback rule.</p>
+    </div>
+    <div class="contents-item">
+      <div class="contents-num">07</div>
+      <div class="contents-title">Agricultural Ties & PD Rights</div>
+      <p class="contents-desc">What agricultural occupancy conditions mean for your application and what Class Q conversions lose in terms of permitted development rights after completion.</p>
+    </div>
+    <div class="contents-item">
+      <div class="contents-num">08</div>
+      <div class="contents-title">The Fallback Strategy</div>
+      <p class="contents-desc">How to use an unbuilt Class Q consent as a fallback position to secure full planning permission — and why this matters in Green Belt.</p>
+    </div>
+    <div class="contents-item">
+      <div class="contents-num">09</div>
+      <div class="contents-title">Going to Committee</div>
+      <p class="contents-desc">What happens when an application is referred to planning committee, and why a committee decision can actually work in your favour.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- AUTHOR -->
+<section class="author">
+  <div class="author-inner">
+    <div>
+      <p class="author-label">The author</p>
+      <h2 class="author-name">Tamzin<br>Hennessy</h2>
+    </div>
+    <div class="author-body">
+      <p>I am a property developer, estate owner and landowner. I have navigated two Class Q prior approval applications on a working farm — both through to committee decisions, both approved. I fought two separate highways battles. I found the 2.4m visibility splay fallback clause myself after eight months of obstruction by a hostile highways officer.</p>
+      <p>I am not a planning consultant. I do not charge by the hour. This guide costs £97 because it contains everything I spent years learning the hard way, written in plain English for people who are at the beginning of that process and would rather not learn it the hard way.</p>
+      <p>The Class Q rules changed in May 2024. The guide is current. The experience behind it is real.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="rule"></div>
+  <h2>Everything you need to know before you apply</h2>
+  <p>Instant download. Read it before you spend a penny on consultants.</p>
+  <div class="cta-price">£97</div>
+  <span class="cta-price-note">One-time payment · Instant PDF download</span>
+  <br>
+  <a href="https://payhip.com/b/Q0WYj" class="cta-btn">Get the Class Q Guide</a>
+  <p class="cta-guarantee">Delivered instantly via Payhip · Secure checkout</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Tamzin Hennessy &nbsp;·&nbsp; <a href="https://payhip.com/b/Q0WYj">payhip.com/b/Q0WYj</a> &nbsp;·&nbsp; real knowledge from a real life</p>
+</footer>
+
+</body>
+</html>
