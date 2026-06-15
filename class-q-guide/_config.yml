@@ -1,3 +1,4 @@
 include:
   - sitemap.xml
   - sitemap2.xml
+permalink: pretty
