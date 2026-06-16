@@ -1,5 +1,5 @@
 url: "https://www.tamzinhennessy.co.uk"
-baseurl: ""
+baseurl: "/class-q-guide"
 include:
   - sitemap.xml
   - sitemap2.xml
