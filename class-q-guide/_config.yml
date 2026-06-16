@@ -1,3 +1,5 @@
+url: "https://www.tamzinhennessy.co.uk"
+baseurl: ""
 include:
   - sitemap.xml
   - sitemap2.xml
